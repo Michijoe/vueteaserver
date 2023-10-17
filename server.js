@@ -3,7 +3,7 @@ const app = express();
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const corsOption = {
-    origin: "http://localhost:8081"
+    origin: "https://teavue.johannapenet.com"
 };
 app.use(cors(corsOption));
 
